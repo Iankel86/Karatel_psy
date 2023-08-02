@@ -1,17 +1,23 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
-  </q-page>
+  <MainNavigation />
+  <q-item-label> AAAAAAAAAAAA </q-item-label>
+  <MainFooter />
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
+
+import MainNavigation from "components/home/MainNavigation.vue";
+import MainFooter from "components/home/MainFooter.vue";
 
 export default defineComponent({
-  name: 'IndexPage'
-})
+  name: "IndexPage",
+
+  components: {
+    MainNavigation,
+    MainFooter,
+  },
+
+  setup() {},
+});
 </script>

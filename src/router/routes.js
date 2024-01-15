@@ -14,9 +14,29 @@ const routes = [
   //   ],
   // },
   {
-    path: "/hi--my-name-is",
+    path: "/profile",
     component: () => import("pages/ProfilePage.vue"),
-    // redirect: "/profile",
+    // redirect: "/profile", MyNames
+  },
+  {
+    path: "/sessions",
+    component: () => import("pages/SessionsPage.vue"),
+  },
+  {
+    path: "/articles",
+    component: () => import("pages/ArticlesPage.vue"),
+  },
+  {
+    path: "/hi--my-name-is",
+    component: () => import("pages/MyName.vue"),
+  },
+  {
+    path: "/course",
+    component: () => import("pages/CoursePage.vue"),
+  },
+  {
+    path: "/books",
+    component: () => import("pages/BooksPage.vue"),
   },
   // {
   //   path: "/profile",

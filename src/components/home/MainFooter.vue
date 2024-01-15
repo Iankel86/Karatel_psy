@@ -9,7 +9,7 @@
     </q-tabs>
 
     <div class="footer-information">
-      <p class="year">© 2023</p>
+      <p class="year">© 2024</p>
 
       <q-tabs class="field-footer-icons" inline-label>
         <a

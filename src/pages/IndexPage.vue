@@ -1,6 +1,6 @@
 <template>
   <MainNavigation />
-  <q-item-label> AAAAAAAAAAAA </q-item-label>
+  <q-item-label> AAAAAAAAAAAA 11111</q-item-label>
   <MainFooter />
 </template>
 
